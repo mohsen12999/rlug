@@ -25,8 +25,11 @@ hr {
     border-style: inset;
     border-width: 1px;
 }
+.fullCard:hover{
+  opacity: 1;
+}
 .fullCard {
-
+    opacity: 0.7;
     width: 75%;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -36,3 +39,9 @@ hr {
     margin-right: 10%;
     padding: 1%;
   }
+.logo{
+
+  width: 55px;
+  height:55px;
+  margin: 1px 1px 1px 1px;
+}
