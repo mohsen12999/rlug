@@ -1,3 +1,47 @@
+@font-face {
+  font-family: 'Yekan';
+  src: url('../fonts/yekan/BYEKAN.eot');
+  src: url('../fonts/yekan/BYEKAN.eot?#iefix') format('embedded-opentype'), url('../fonts/yekan/BYEKAN.woff') format('woff'), url('../fonts/yekan/BYEKAN.ttf') format('truetype'), url('../fonts/yekan/BYEKAN.svg#font1') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 body{
   text-align: right;
+  font-family: Yekan Tahoma;
+}
+
+section{
+  text-align: center justify;
+  margin: 1% 5% 2% 5%;
+}
+
+hr {
+    display: block;
+    margin-before: 0.5em;
+    margin-after: 0.5em;
+    margin-start: auto;
+    margin-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+.fullCard:hover{
+  opacity: 1;
+}
+.fullCard {
+    opacity: 0.7;
+    width: 75%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 4px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin-right: 10%;
+    padding: 1%;
+  }
+.logo{
+
+  width: 55px;
+  height:55px;
+  margin: 1px 1px 1px 1px;
 }
