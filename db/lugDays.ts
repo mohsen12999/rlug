@@ -1,7 +1,8 @@
 interface ILugDay {
   id: number;
-  date: string;
   pic: string;
+  desc: string;
+  date: string;
   lugEvents: ILugEvent[];
 }
 
@@ -25,6 +26,7 @@ const lugDays: ILugDay[] = [
   {
     id: 1,
     date: "جمعه 29 شهریور ساعت 11 صبح",
+    desc: "",
     pic: "",
     lugEvents: [
       {
@@ -61,6 +63,7 @@ const lugDays: ILugDay[] = [
   {
     id: 2,
     date: "جمعه 5 مهر ساعت 11 صبح",
+    desc: "",
     pic: "",
     lugEvents: [
       {

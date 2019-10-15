@@ -3,7 +3,8 @@
     {
       "id": 1,
       "date": "جمعه 29 شهریور ساعت 11 صبح",
-      "pic": "",
+      "desc": "اولین لاگ با ارائه توضیحی در مورد اهداف لاگ شروع شد.",
+      "pic": "/lugs/lug-1/person/Richard_Matthew_Stallman.jpeg",
       "lugEvents": [
         {
           "name": "لاگ رامسر",
@@ -37,7 +38,8 @@
     {
       "id": 2,
       "date": "جمعه 5 مهر ساعت 11 صبح",
-      "pic": "",
+      "desc": "این لاگ در مورد کامپیوتر های کوانتومی بود.",
+      "pic": "/lugs/lug-2/person/image.jpg",
       "lugEvents": [
         {
           "name": "کامپیوتر های کوانتومی",

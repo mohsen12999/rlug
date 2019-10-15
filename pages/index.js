@@ -47,6 +47,15 @@ const moveLeftBtnDiv = {
     direction: "ltr"
 }
 
+const EnglishLink = {
+    direction: "ltr"
+}
+
+const mapStyle = {
+    border: "1px solid black",
+    width: "100%"
+}
+
 const Index = () =>
     (
         <WebsiteLayout>
@@ -56,7 +65,7 @@ const Index = () =>
                     <Slider {...settings}>
                         <div>
                             <img style={imgStyle} src="/img/slider/slide-0.jpg" />
-                            <h2 style={sliderTxt}>آشنایی با توزیع‌های مختلف لینوکس</h2>
+                            <h2 style={sliderTxt}>آشنایی با توزیع‌های مختلف لینوکس </h2>
                         </div>
                         <div>
                             <img style={imgStyle} src="/img/slider/slide-1.jpg" />
@@ -139,23 +148,27 @@ const Index = () =>
 
                     <div className="row">
 
-                        <div className="col-md-6 col-xs-12">
-                            <div class="card mb-3">
-                                <div class="row no-gutters">
-                                    <div class="col-md-4">
-                                        <img src="..." class="card-img" alt="..." />
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        {
+                            //console.log(info.lugDays)
+                            info.lugDays.sort((a, b) => a.id < b.id).slice(0, 4).map(lug => (
+                                <div key={lug.id} className="col-md-6 col-xs-12">
+                                    <div className="card mb-3">
+                                        <div className="row no-gutters">
+                                            <div className="col-md-4">
+                                                <img src={lug.pic} className="card-img" alt={"lug pic " + lug.id} />
+                                            </div>
+                                            <div className="col-md-8">
+                                                <div className="card-body">
+                                                    <h5 className="card-title">{"لاگ " + lug.id}</h5>
+                                                    <p className="card-text">{lug.desc}</p>
+                                                    <p className="card-text"><small className="text-muted">{lug.date}</small></p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-
+                            ))
+                        }
 
                     </div>
 
@@ -166,6 +179,22 @@ const Index = () =>
 
                 <section id="contact">
                     <h2>راه های ارتباطی</h2>
+                    <div className="row">
+
+                        <div className="col-md-8 col-xs-12">
+                            <iframe style={mapStyle} height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=50.64917206764222%2C36.910545928340646%2C50.65193474292755%2C36.912385994347076&amp;layer=mapnik&amp;marker=36.9114659668923%2C50.65055340528488"></iframe><br /><small><a href="https://www.openstreetmap.org/?mlat=36.91147&amp;mlon=50.65055#map=19/36.91147/50.65055">View Larger Map</a></small>
+                        </div>
+
+                        <div className="col-md-3 col-xs-12">
+                            <p>آدرس:</p>
+                            <address>رامسر - ابریشم محله - نگارخانه حیاط حیات</address>
+                            <p>تلفن: <tel>01155229119</tel></p>
+                            <p>صفحه اینستاگرام: <a style={EnglishLink} href="https://instagram.com/Ramsarlug/">RamsarLug@</a></p>
+                            <p>گروه تلگرام : <a href="https://t.me/ramsarlug">RamsarLug@</a></p>
+                        </div>
+
+                    </div>
+
                 </section>
             </div>
 
