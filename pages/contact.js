@@ -1,6 +1,6 @@
-import Nav from '../components/Nav'
+import Nav from '../components/Nav';
 
-export default function Contact() {
+const Contact = ()=> {
     return (
       <div>
           <Nav/>
@@ -8,3 +8,5 @@ export default function Contact() {
       </div>
     )
   }
+
+  export default Contact;

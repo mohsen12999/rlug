@@ -1,12 +1,10 @@
 const pstyle = {
-    textAlign: "center"
+    textAlign: "center",
+    margin: "1rem"
 }
 const footerstyle = {
-    position: "fixed",
     background: "gray",
-    bottom: 0,
-    paddingTop: "60px",
-    marginTop: "60px",
+    padding: "1px",
     width: "100%"
 }
 

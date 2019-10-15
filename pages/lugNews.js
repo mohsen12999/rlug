@@ -1,10 +1,11 @@
-import Nav from '../components/Nav'
+import Nav from '../components/Nav';
 
-export default function LugNews() {
-    return (
+const LugNews = () =>
+    (
         <div>
             <Nav />
             <h1>lug list</h1>
         </div>
-    )
-}
+    );
+
+export default LugNews;
