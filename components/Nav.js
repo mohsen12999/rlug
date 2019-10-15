@@ -10,7 +10,7 @@ const Nav = () => (
             <link rel="stylesheet" href="/css/style.css" />
         </Head>
 
-        <nav className="navbar navbar-expand-lg  sticky-top navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg  sticky-top navbar-dark bg-dark">
             <Link href='/'><a className="navbar-brand" >
                 <img src="/img/logo.png" width="30" height="30" className="d-inline-block align-top" alt="logo" />
                 لاگ رامسر
