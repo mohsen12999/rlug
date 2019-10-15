@@ -9,7 +9,7 @@
   font-style: normal;
 }
 body {
-  text-align: right;
+  text-align: right !important;
   font-family: "Yekan" !important;
   direction: rtl;
 }
@@ -19,7 +19,7 @@ section {
   margin: 1% 5% 2% 5%;
 }
 
-hr {
+/* hr {
   display: block;
   margin-before: 0.5em;
   margin-after: 0.5em;
@@ -28,10 +28,12 @@ hr {
   overflow: hidden;
   border-style: inset;
   border-width: 1px;
-}
+} */
+
 .fullCard:hover {
   opacity: 1;
 }
+
 .fullCard {
   opacity: 0.7;
   width: 75%;
@@ -43,8 +45,24 @@ hr {
   margin-right: 10%;
   padding: 1%;
 }
+
 .logo {
   width: 55px;
   height: 55px;
   margin: 1px 1px 1px 1px;
+}
+
+footer {
+  background: gray;
+  padding: 1px;
+  width: 100%;
+}
+
+footer p {
+  text-align: center;
+  margin: 1rem;
+}
+
+footer p a {
+  text-shadow: 1px 1px black;
 }

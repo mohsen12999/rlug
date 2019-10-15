@@ -1,6 +1,7 @@
 interface ILugDay {
   id: number;
   date: string;
+  pic: string;
   lugEvents: ILugEvent[];
 }
 
@@ -20,10 +21,11 @@ enum LugEventType {
   Discuss
 }
 
-const data: ILugDay[] = [
+const lugDays: ILugDay[] = [
   {
     id: 1,
     date: "جمعه 29 شهریور ساعت 11 صبح",
+    pic: "",
     lugEvents: [
       {
         name: "لاگ رامسر",
@@ -59,6 +61,7 @@ const data: ILugDay[] = [
   {
     id: 2,
     date: "جمعه 5 مهر ساعت 11 صبح",
+    pic: "",
     lugEvents: [
       {
         name: "کامپیوتر های کوانتومی",
@@ -93,4 +96,6 @@ const data: ILugDay[] = [
   }
 ];
 
-export default data;
+const lugs = () => lugDays;
+
+export default lugs;
