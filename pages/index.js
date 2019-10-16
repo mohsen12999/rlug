@@ -188,7 +188,7 @@ const Index = () =>
                         <div className="col-md-3 col-xs-12">
                             <p>آدرس:</p>
                             <address>رامسر - ابریشم محله - نگارخانه حیاط حیات</address>
-                            <p>تلفن: <tel>01155229119</tel></p>
+                            <p>تلفن: <a href="tel:+981155229119">01155229119</a></p>
                             <p>صفحه اینستاگرام: <a style={EnglishLink} href="https://instagram.com/Ramsarlug/">RamsarLug@</a></p>
                             <p>گروه تلگرام : <a href="https://t.me/ramsarlug">RamsarLug@</a></p>
                         </div>
