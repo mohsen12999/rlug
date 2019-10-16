@@ -182,7 +182,7 @@ const Index = () =>
                     <div className="row">
 
                         <div className="col-md-8 col-xs-12">
-                            <iframe style={mapStyle} height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=50.64917206764222%2C36.910545928340646%2C50.65193474292755%2C36.912385994347076&amp;layer=mapnik&amp;marker=36.9114659668923%2C50.65055340528488"></iframe><br /><small><a href="https://www.openstreetmap.org/?mlat=36.91147&amp;mlon=50.65055#map=19/36.91147/50.65055">View Larger Map</a></small>
+                            <iframe style={mapStyle} height="350" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=50.64917206764222%2C36.910545928340646%2C50.65193474292755%2C36.912385994347076&amp;layer=mapnik&amp;marker=36.9114659668923%2C50.65055340528488"></iframe><br /><small><a href="https://www.openstreetmap.org/?mlat=36.91147&amp;mlon=50.65055#map=19/36.91147/50.65055">View Larger Map</a></small>
                         </div>
 
                         <div className="col-md-3 col-xs-12">

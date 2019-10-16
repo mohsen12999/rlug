@@ -1,14 +1,3 @@
-// const pstyle = {
-//     textAlign: "center",
-//     margin: "1rem",
-//     textShadow: "0 0 1px black"
-// }
-
-// const footerstyle = {
-//     background: "gray",
-//     padding: "1px",
-//     width: "100%"
-// }
 
 export default function Footer() {
     return (
