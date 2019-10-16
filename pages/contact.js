@@ -1,11 +1,10 @@
-import Nav from '../components/Nav';
+import WebsiteLayout from "../components/websiteLayout";
 
 const Contact = ()=> {
     return (
-      <div>
-          <Nav/>
+      <WebsiteLayout>
         <h1>contacts list</h1>
-      </div>
+      </WebsiteLayout>
     )
   }
 

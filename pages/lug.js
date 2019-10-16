@@ -1,11 +1,10 @@
-import Nav from '../components/Nav';
+import WebsiteLayout from "../components/websiteLayout";
 
 const Lug = () =>
   (
-    <div>
-      <Nav />
+    <WebsiteLayout>
       <h1>single lus</h1>
-    </div>
+    </WebsiteLayout>
   );
 
 export default Lug;

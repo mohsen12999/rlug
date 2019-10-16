@@ -1,11 +1,10 @@
-import Nav from '../components/Nav';
+import WebsiteLayout from "../components/websiteLayout";
 
 const LugNews = () =>
     (
-        <div>
-            <Nav />
+        <WebsiteLayout>
             <h1>lug list</h1>
-        </div>
+        </WebsiteLayout>
     );
 
 export default LugNews;

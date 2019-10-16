@@ -1,4 +1,4 @@
-import WebsiteLayout from '../components/websiteLayout';
+import WebsiteLayout from "../components/websiteLayout";
 
 const About = () =>
   (
