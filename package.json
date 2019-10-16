@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "homepage": "https://rlug.ir/",
-  "scripts": {
+  "scripts": { 
     "dev": "next",
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "predeploy": "npm run build && npm run export",
+    "predeploy": "next build && next export -o build",
     "deploy": "gh-pages -d build",
     "deploy0": "next build && next export && git add out/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin gh-pages",
     "deploy2": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy Next.js to gh-pages\" && git subtree push --prefix out origin gh-pages",
