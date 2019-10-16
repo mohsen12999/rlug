@@ -10,7 +10,7 @@
     "start": "next start",
     "export": "next export",
     "predeploy": "next build && next export -o build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "gh-pages": "^2.1.1",
