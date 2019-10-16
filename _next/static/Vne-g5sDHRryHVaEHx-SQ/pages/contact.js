@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{ALdH:function(n,t,c){"use strict";c.r(t);var o=c("q1tI"),u=c.n(o),e=c("q8RP"),i=u.a.createElement;t.default=function(){return i(e.a,null,i("h1",null,"contacts list"))}},lqnA:function(n,t,c){(window.__NEXT_P=window.__NEXT_P||[]).push(["/contact",function(){return c("ALdH")}])}},[["lqnA",1,0]]]);
