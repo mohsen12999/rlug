@@ -3,13 +3,12 @@ const withCSS = require('@zeit/next-css')
 module.exports = withCSS({
     exportPathMap: function () {
         return {
-          "/": { page: "/" },
-          "/about": { page: "/about" },
-          "/contact": { page: "/contact" },
-          "/lugnews": { page: "/lugNews" },
+            "/": { page: "/" },
+            "/about": { page: "/about" },
+            "/lugnews": { page: "/lugNews" }
         }
-      },
-      assetPrefix: '',
+    },
+    assetPrefix: '',
 
     webpack: function (config) {
         config.module.rules.push({

@@ -36,7 +36,10 @@ const WebsiteLayout = props => (
                     <Link href='/lugNews'><a className="nav-link">اخبار لاگ ها</a></Link>
                 </li>
                 <li className="nav-item">
-                    <Link href='/contact'><a className="nav-link">ارتباط با ما</a></Link>
+                    <a href="https://lugs.ir/" className="nav-link">سایر لاگ ها</a>
+                </li>
+                <li className="nav-item">
+                    <a href="https://github.com/mohsen12999/rlug" className="nav-link">گیت هاب</a>
                 </li>
             </ul>
 

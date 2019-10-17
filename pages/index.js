@@ -47,15 +47,6 @@ const moveLeftBtnDiv = {
     direction: "ltr"
 }
 
-const EnglishLink = {
-    direction: "ltr"
-}
-
-const mapStyle = {
-    border: "1px solid black",
-    width: "100%"
-}
-
 const Index = () =>
     (
         <WebsiteLayout>
@@ -65,7 +56,7 @@ const Index = () =>
                     <Slider {...settings}>
                         <div>
                             <img style={imgStyle} src="/img/slider/slide-0.jpg" />
-                            <h2 style={sliderTxt}>آشنایی با توزیع‌های مختلف لینوکس </h2>
+                            <h2 style={sliderTxt}>آشنایی با توزیع‌های مختلف لینوکس</h2>
                         </div>
                         <div>
                             <img style={imgStyle} src="/img/slider/slide-1.jpg" />
@@ -150,7 +141,7 @@ const Index = () =>
 
                         {
                             //console.log(info.lugDays)
-                            info.lugDays.sort((a, b) => a.id < b.id).slice(0, 4).map(lug => (
+                            info.lugDays.sort((a, b) => a.id < b.id).slice(0, 4).map((lug, index) => (
                                 <div key={lug.id} className="col-md-6 col-xs-12">
                                     <div className="card mb-3">
                                         <div className="row no-gutters">
@@ -161,6 +152,9 @@ const Index = () =>
                                                 <div className="card-body">
                                                     <h5 className="card-title">{"لاگ " + lug.id}</h5>
                                                     <p className="card-text">{lug.desc}</p>
+                                                    <Link href="/lug/[id]" as={"/lug/" + lug.id}>
+                                                        <a className="btn btn-sm btn-secondary float-left">اطلاعات بیشتر</a>
+                                                    </Link>
                                                     <p className="card-text"><small className="text-muted">{lug.date}</small></p>
                                                 </div>
                                             </div>
@@ -170,6 +164,9 @@ const Index = () =>
                             ))
                         }
 
+                    </div>
+                    <div className="row" style={moveLeftBtnDiv}>
+                        <Link href='/lugNews'><a className="btn btn-lg btn-primary">اطلاعات لاگ ها</a></Link>
                     </div>
 
 
@@ -182,14 +179,14 @@ const Index = () =>
                     <div className="row">
 
                         <div className="col-md-8 col-xs-12">
-                            <iframe style={mapStyle} height="350" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=50.64917206764222%2C36.910545928340646%2C50.65193474292755%2C36.912385994347076&amp;layer=mapnik&amp;marker=36.9114659668923%2C50.65055340528488"></iframe><br /><small><a href="https://www.openstreetmap.org/?mlat=36.91147&amp;mlon=50.65055#map=19/36.91147/50.65055">View Larger Map</a></small>
+                            <iframe className="full-map" height="350" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=50.64917206764222%2C36.910545928340646%2C50.65193474292755%2C36.912385994347076&amp;layer=mapnik&amp;marker=36.9114659668923%2C50.65055340528488"></iframe><br /><small><a href="https://www.openstreetmap.org/?mlat=36.91147&amp;mlon=50.65055#map=19/36.91147/50.65055">View Larger Map</a></small>
                         </div>
 
                         <div className="col-md-3 col-xs-12">
                             <p>آدرس:</p>
                             <address>رامسر - ابریشم محله - نگارخانه حیاط حیات</address>
                             <p>تلفن: <a href="tel:+981155229119">01155229119</a></p>
-                            <p>صفحه اینستاگرام: <a style={EnglishLink} href="https://instagram.com/Ramsarlug/">RamsarLug@</a></p>
+                            <p>صفحه اینستاگرام: <a href="https://instagram.com/Ramsarlug/">RamsarLug@</a></p>
                             <p>گروه تلگرام : <a href="https://t.me/ramsarlug">RamsarLug@</a></p>
                         </div>
 

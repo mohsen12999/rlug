@@ -104,3 +104,13 @@
 
 - [x] just for fun
 - [x] Cathedral and the Bazaar
+
+## Other lug website
+
+- [tehlug](https://tehlug.org)
+- [tabrizlug](https://tabrizlug.ir)
+- [mashhadlug](https://mashhadlug.ir)
+- [khozestanlug](https://khozestanlug.ir)
+- [klug](https://klug.ir)
+- [gullug](https://gullug.ir)
+- [kshlug](https://kshlug.ir/)
