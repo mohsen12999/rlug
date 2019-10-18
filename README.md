@@ -26,6 +26,9 @@
 - [ ] Open Source Initiative
 - [ ] The Free Software Directory
 - [ ] LibrePlanet wiki
+- [ ] Bell lab
+- [ ] Unix
+- [ ] Bsd
 
 ## Person
 
@@ -35,6 +38,10 @@
 - [x] Eric Raymond
 - [ ] Dennis Ritchie
 - [ ] Ken Thompson
+- [ ] Douglas McIlroy
+- [ ] Joe Ossanna
+- [ ] Brian Kernisham
+- [ ] Bjarne Stroustrup
 
 - [ ] Geoffrey Knauth
 - [ ] Gerald Jay Sussman
@@ -48,7 +55,6 @@
 - [ ] Lawrence Lessig
 - [ ] Eben Moglen
 - [ ] Len Tower Jr.
-- [ ] Richard Stallman
 
 ## Command
 
