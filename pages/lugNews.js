@@ -4,15 +4,14 @@ import info from '../db/lugInfo';
 
 import fetch from 'isomorphic-unfetch';
 
-const LugNews = () =>
+const LugNews = (props) =>
     (
         <WebsiteLayout>
             <div id="lug-list" className="container">
                 <div className="row">
 
                     {
-                        //console.log(info.lugDays)
-                        info.lugDays.sort((a, b) => a.id < b.id).map((lug, index) => (
+                        props.lugs.map((lug, index) => (
                             <div key={lug.id} className="col-md-6 col-xs-12">
                                 <div className="card mb-3">
                                     <div className="row no-gutters">
@@ -44,11 +43,8 @@ LugNews.getInitialProps = async function () {
     const res = await fetch('https://apdr.ir/api/lugs');
     const data = await res.json();
 
-    console.log(`Show data fetched. Count: ${data.length}`);
-    console.log(data);
-
     return {
-        shows: data.map(entry => entry.lugs)
+        lugs: data.lugs
     };
 };
 

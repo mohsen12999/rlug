@@ -3,8 +3,7 @@ import Slider from "react-slick";
 
 import WebsiteLayout from '../components/websiteLayout';
 
-import info from '../db/lugInfo';
-
+import fetch from 'isomorphic-unfetch';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -47,7 +46,7 @@ const moveLeftBtnDiv = {
     direction: "ltr"
 }
 
-const Index = () =>
+const Index = (props) =>
     (
         <WebsiteLayout>
 
@@ -140,8 +139,7 @@ const Index = () =>
                     <div className="row">
 
                         {
-                            //console.log(info.lugDays)
-                            info.lugDays.sort((a, b) => a.id < b.id).slice(0, 4).map((lug, index) => (
+                            props.lugs.map((lug, index) => (
                                 <div key={lug.id} className="col-md-6 col-xs-12">
                                     <div className="card mb-3">
                                         <div className="row no-gutters">
@@ -198,4 +196,12 @@ const Index = () =>
         </WebsiteLayout>
     );
 
+Index.getInitialProps = async function () {
+    const res = await fetch('https://apdr.ir/api/lugs/4');
+    const data = await res.json();
+
+    return {
+        lugs: data.lugs// data.map(entry => entry.lugs)
+    };
+};
 export default Index;
