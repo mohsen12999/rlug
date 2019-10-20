@@ -76,11 +76,11 @@ const Index = () =>
                         </div>
                         <div>
                             <img style={imgStyle} src="/img/slider/slide-5.jpg" />
-                            <h2 style={sliderTxt}>آموزش و راهنمایی نصب توزیع عا و بسته های نرم افزاری</h2>
+                            <h2 style={sliderTxt}>آموزش و راهنمایی نصب توزیع‌ها و بسته های نرم‌افزاری</h2>
                         </div>
                         <div>
                             <img style={imgStyle} src="/img/slider/slide-6.jpg" />
-                            <h2 style={sliderTxt}>دستکاری و رفع اشکال برنامه ها و سخت افزار ها</h2>
+                            <h2 style={sliderTxt}>دستکاری و رفع اشکال برنامه‌ها و سخت افزار‌ها</h2>
                         </div>
                         <div>
                             <img style={imgStyle} src="/img/slider/slide-7.jpg" />
@@ -166,7 +166,7 @@ const Index = () =>
 
                     </div>
                     <div className="row" style={moveLeftBtnDiv}>
-                        <Link href='/lugNews'><a className="btn btn-lg btn-primary">اطلاعات لاگ ها</a></Link>
+                        <Link href='/lugNews'><a className="btn btn-lg btn-primary">لیست لاگ ها</a></Link>
                     </div>
 
 
