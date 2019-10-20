@@ -2,6 +2,8 @@ import Link from "next/link";
 import WebsiteLayout from "../components/websiteLayout";
 import info from '../db/lugInfo';
 
+import fetch from 'isomorphic-unfetch';
+
 const LugNews = () =>
     (
         <WebsiteLayout>
@@ -37,5 +39,17 @@ const LugNews = () =>
             </div>
         </WebsiteLayout>
     );
+
+LugNews.getInitialProps = async function () {
+    const res = await fetch('https://apdr.ir/api/lugs');
+    const data = await res.json();
+
+    console.log(`Show data fetched. Count: ${data.length}`);
+    console.log(data);
+
+    return {
+        shows: data.map(entry => entry.lugs)
+    };
+};
 
 export default LugNews;
