@@ -172,68 +172,66 @@ var WebsiteLayout = function WebsiteLayout(props) {
       lineNumber: 38
     },
     __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/contact",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: this
   }, __jsx("a", {
+    href: "https://lugs.ir/",
     className: "nav-link",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 39
     },
     __self: this
-  }, "\u0627\u0631\u062A\u0628\u0627\u0637 \u0628\u0627 \u0645\u0627"))))), __jsx("div", {
+  }, "\u0633\u0627\u06CC\u0631 \u0644\u0627\u06AF \u0647\u0627")), __jsx("li", {
+    className: "nav-item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "https://github.com/mohsen12999/rlug",
+    className: "nav-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, "\u06AF\u06CC\u062A \u0647\u0627\u0628")))), __jsx("div", {
     style: fullpage,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 48
     },
     __self: this
   }, props.children), __jsx("footer", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 52
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 53
     },
     __self: this
   }, "\u0637\u0631\u0627\u062D\u06CC \u062A\u0648\u0633\u0637 ", __jsx("a", {
     href: "http://mohsenshabanian.com",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 53
     },
     __self: this
   }, "\u0645\u062D\u0633\u0646 \u0634\u0639\u0628\u0627\u0646\u06CC\u0627\u0646"), " \u0628\u0627 \u06A9\u0645\u06A9 ", __jsx("a", {
     href: "https://getbootstrap.com",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 53
     },
     __self: this
   }, "\u0628\u0648\u062A \u0627\u0633\u062A\u0631\u067E"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (WebsiteLayout);
-
-/***/ }),
-
-/***/ "./db/lugInfo.json":
-/*!*************************!*\
-  !*** ./db/lugInfo.json ***!
-  \*************************/
-/*! exports provided: lugDays, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"lugDays\":[{\"id\":1,\"date\":\"جمعه 29 شهریور ساعت 11 صبح\",\"desc\":\"اولین لاگ با ارائه توضیحی در مورد اهداف لاگ شروع شد.\",\"pic\":\"/lugs/lug-1/person/Richard_Matthew_Stallman.jpeg\",\"lugEvents\":[{\"name\":\"لاگ رامسر\",\"author\":\"محسن شعبانیان\",\"body\":\"اولین ارائه امروز، توضیحی بود در مورد لاگ، تاریخچه لاگ، و اهداف ما از برگزاری لاگ\",\"type\":\"Present\",\"tags\":[]},{\"name\":\"ریچارد استالمن\",\"author\":\"محسن شعبانیان\",\"body\":\"دومین ارائه در مورد #استالمن از بنیانگذار جنبش نرم افزار های آزاد و پایه گذار بنیاد #گنو بود. به مناسبت خبر استعفای او از بنیاد و دانشگاه ماساچوست\",\"type\":\"Person\",\"tags\":[]},{\"name\":\"nohup\",\"author\":\"محسن شعبانیان\",\"body\":\"دستور لینوکسی این هفته nohup بود\",\"type\":\"Command\",\"tags\":[]},{\"name\":\"بلاکچین و رمزارز ها\",\"body\":\"بحث و گفتگوی این هفته هم در مورد بلاکچین و رمزارز ها بود\",\"type\":\"Discuss\",\"tags\":[]}]},{\"id\":2,\"date\":\"جمعه 5 مهر ساعت 11 صبح\",\"desc\":\"این لاگ در مورد کامپیوتر های کوانتومی بود.\",\"pic\":\"/lugs/lug-2/person/image.jpg\",\"lugEvents\":[{\"name\":\"کامپیوتر های کوانتومی\",\"author\":\"محسن شعبانیان\",\"body\":\"به مناسبت پخش خبر برتری کوانتومی توسط گوگل، ارائه این هفته در مورد کامپیوتر های کوانتومی بود.\",\"type\":\"Present\",\"tags\":[]},{\"name\":\"اروین شرودینگر\",\"author\":\"محسن شعبانیان\",\"body\":\"در ادامه بحث کامپیوتر های کوانتومی، شخصیت هفته، اروین شرودینگر یکی از افراد مهم در این رشته بود. در مورد ایده ها و نظریاتش و معادله شروینگر و #گربه_شرودینگر با هم صحبت کردیم\",\"type\":\"Person\",\"tags\":[]},{\"name\":\"man\",\"author\":\"محسن شعبانیان\",\"body\":\"دستور لینوکسی این هفته man بود\",\"type\":\"Command\",\"tags\":[]},{\"name\":\"زبان های برنامه نویسی\",\"body\":\"بحث و گفتگوی این هفته هم در مورد زبان های برنامه نویسی بود\",\"type\":\"Discuss\",\"tags\":[]}]}]}");
 
 /***/ }),
 
@@ -621,6 +619,58 @@ function _createClass(Constructor, protoProps, staticProps) {
 }
 
 module.exports = _createClass;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _asyncToGenerator; });
+/* harmony import */ var _core_js_promise__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");
+/* harmony import */ var _core_js_promise__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_promise__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+  try {
+    var info = gen[key](arg);
+    var value = info.value;
+  } catch (error) {
+    reject(error);
+    return;
+  }
+
+  if (info.done) {
+    resolve(value);
+  } else {
+    _core_js_promise__WEBPACK_IMPORTED_MODULE_0___default.a.resolve(value).then(_next, _throw);
+  }
+}
+
+function _asyncToGenerator(fn) {
+  return function () {
+    var self = this,
+        args = arguments;
+    return new _core_js_promise__WEBPACK_IMPORTED_MODULE_0___default.a(function (resolve, reject) {
+      var gen = fn.apply(self, args);
+
+      function _next(value) {
+        asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+      }
+
+      function _throw(err) {
+        asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+      }
+
+      _next(undefined);
+    });
+  };
+}
 
 /***/ }),
 
@@ -5428,6 +5478,18 @@ module.exports = function hasSymbols() {
 var bind = __webpack_require__(/*! function-bind */ "./node_modules/function-bind/index.js");
 
 module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
+
+
+/***/ }),
+
+/***/ "./node_modules/isomorphic-unfetch/browser.js":
+/*!****************************************************!*\
+  !*** ./node_modules/isomorphic-unfetch/browser.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = window.fetch || (window.fetch = __webpack_require__(/*! unfetch */ "./node_modules/unfetch/dist/unfetch.mjs").default || __webpack_require__(/*! unfetch */ "./node_modules/unfetch/dist/unfetch.mjs"));
 
 
 /***/ }),
@@ -14778,6 +14840,21 @@ module.exports = camel2hyphen;
 
 /***/ }),
 
+/***/ "./node_modules/unfetch/dist/unfetch.mjs":
+/*!***********************************************!*\
+  !*** ./node_modules/unfetch/dist/unfetch.mjs ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(__webpack_module__, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (function(e,n){return n=n||{},new Promise(function(t,r){var s=new XMLHttpRequest,o=[],u=[],i={},a=function(){return{ok:2==(s.status/100|0),statusText:s.statusText,status:s.status,url:s.responseURL,text:function(){return Promise.resolve(s.responseText)},json:function(){return Promise.resolve(JSON.parse(s.responseText))},blob:function(){return Promise.resolve(new Blob([s.response]))},clone:a,headers:{keys:function(){return o},entries:function(){return u},get:function(e){return i[e.toLowerCase()]},has:function(e){return e.toLowerCase()in i}}}};for(var l in s.open(n.method||"get",e,!0),s.onload=function(){s.getAllResponseHeaders().replace(/^(.*?):[^\S\n]*([\s\S]*?)$/gm,function(e,n,t){o.push(n=n.toLowerCase()),u.push([n,t]),i[n]=i[n]?i[n]+","+t:t}),t(a())},s.onerror=r,s.withCredentials="include"==n.credentials,n.headers)s.setRequestHeader(l,n.headers[l]);s.send(n.body||null)})});
+//# sourceMappingURL=unfetch.mjs.map
+
+
+/***/ }),
+
 /***/ "./node_modules/url/url.js":
 /*!*********************************!*\
   !*** ./node_modules/url/url.js ***!
@@ -15623,24 +15700,29 @@ module.exports = function(module) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-slick */ "./node_modules/react-slick/lib/index.js");
-/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _components_websiteLayout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/websiteLayout */ "./components/websiteLayout.js");
-/* harmony import */ var _db_lugInfo__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../db/lugInfo */ "./db/lugInfo.json");
-var _db_lugInfo__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../db/lugInfo */ "./db/lugInfo.json", 1);
-/* harmony import */ var slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! slick-carousel/slick/slick.css */ "./node_modules/slick-carousel/slick/slick.css");
-/* harmony import */ var slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! slick-carousel/slick/slick-theme.css */ "./node_modules/slick-carousel/slick/slick-theme.css");
-/* harmony import */ var slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/regenerator */ "./node_modules/@babel/runtime-corejs2/regenerator/index.js");
+/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/asyncToGenerator */ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-slick */ "./node_modules/react-slick/lib/index.js");
+/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _components_websiteLayout__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/websiteLayout */ "./components/websiteLayout.js");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! isomorphic-unfetch */ "./node_modules/isomorphic-unfetch/browser.js");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! slick-carousel/slick/slick.css */ "./node_modules/slick-carousel/slick/slick.css");
+/* harmony import */ var slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! slick-carousel/slick/slick-theme.css */ "./node_modules/slick-carousel/slick/slick-theme.css");
+/* harmony import */ var slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_9__);
+
+
 
 var _jsxFileName = "D:\\Project\\my Project\\rlug\\pages\\index.js";
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement;
 
 
 
@@ -15678,45 +15760,38 @@ var iconImage = {
 var moveLeftBtnDiv = {
   direction: "ltr"
 };
-var EnglishLink = {
-  direction: "ltr"
-};
-var mapStyle = {
-  border: "1px solid black",
-  width: "100%"
-};
 
-var Index = function Index() {
-  return __jsx(_components_websiteLayout__WEBPACK_IMPORTED_MODULE_4__["default"], {
+var Index = function Index(props) {
+  return __jsx(_components_websiteLayout__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 51
     },
     __self: this
   }, __jsx("div", {
     style: sliderContainerStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 53
     },
     __self: this
   }, __jsx("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 54
     },
     __self: this
-  }, __jsx(react_slick__WEBPACK_IMPORTED_MODULE_3___default.a, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, settings, {
+  }, __jsx(react_slick__WEBPACK_IMPORTED_MODULE_5___default.a, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_2__["default"])({}, settings, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 55
     },
     __self: this
   }), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 56
     },
     __self: this
   }, __jsx("img", {
@@ -15724,20 +15799,20 @@ var Index = function Index() {
     src: "/img/slider/slide-0.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 57
     },
     __self: this
   }), __jsx("h2", {
     style: sliderTxt,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 58
     },
     __self: this
-  }, "\u0622\u0634\u0646\u0627\u06CC\u06CC \u0628\u0627 \u062A\u0648\u0632\u06CC\u0639\u200C\u0647\u0627\u06CC \u0645\u062E\u062A\u0644\u0641 \u0644\u06CC\u0646\u0648\u06A9\u0633 ")), __jsx("div", {
+  }, "\u0622\u0634\u0646\u0627\u06CC\u06CC \u0628\u0627 \u062A\u0648\u0632\u06CC\u0639\u200C\u0647\u0627\u06CC \u0645\u062E\u062A\u0644\u0641 \u0644\u06CC\u0646\u0648\u06A9\u0633")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 60
     },
     __self: this
   }, __jsx("img", {
@@ -15745,20 +15820,20 @@ var Index = function Index() {
     src: "/img/slider/slide-1.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 61
     },
     __self: this
   }), __jsx("h2", {
     style: sliderTxt,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 62
     },
     __self: this
   }, "\u0627\u0631\u0627\u0626\u0647 \u0645\u0637\u0627\u0644\u0628 \u0647\u0641\u062A\u06AF\u06CC")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 64
     },
     __self: this
   }, __jsx("img", {
@@ -15766,20 +15841,20 @@ var Index = function Index() {
     src: "/img/slider/slide-2.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 65
     },
     __self: this
   }), __jsx("h2", {
     style: sliderTxt,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 66
     },
     __self: this
   }, "\u062C\u0634\u0646 \u0627\u0646\u062A\u0634\u0627\u0631")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 68
     },
     __self: this
   }, __jsx("img", {
@@ -15787,20 +15862,20 @@ var Index = function Index() {
     src: "/img/slider/slide-3.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 69
     },
     __self: this
   }), __jsx("h2", {
     style: sliderTxt,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 70
     },
     __self: this
   }, "\u0628\u062D\u062B \u0648 \u06AF\u0641\u062A\u06AF\u0648\u06CC \u062E\u0648\u062F\u0645\u0627\u0646\u06CC")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 72
     },
     __self: this
   }, __jsx("img", {
@@ -15808,20 +15883,20 @@ var Index = function Index() {
     src: "/img/slider/slide-4.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 73
     },
     __self: this
   }), __jsx("h2", {
     style: sliderTxt,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 74
     },
     __self: this
   }, "\u0622\u0645\u0648\u0632\u0634 \u062F\u0633\u062A\u0648\u0631\u0627\u062A \u0645\u062E\u062A\u0644\u0641 \u0644\u06CC\u0646\u0648\u06A9\u0633 ")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 76
     },
     __self: this
   }, __jsx("img", {
@@ -15829,20 +15904,20 @@ var Index = function Index() {
     src: "/img/slider/slide-5.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87
+      lineNumber: 77
     },
     __self: this
   }), __jsx("h2", {
     style: sliderTxt,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 78
     },
     __self: this
-  }, "\u0622\u0645\u0648\u0632\u0634 \u0648 \u0631\u0627\u0647\u0646\u0645\u0627\u06CC\u06CC \u0646\u0635\u0628 \u062A\u0648\u0632\u06CC\u0639 \u0639\u0627 \u0648 \u0628\u0633\u062A\u0647 \u0647\u0627\u06CC \u0646\u0631\u0645 \u0627\u0641\u0632\u0627\u0631\u06CC")), __jsx("div", {
+  }, "\u0622\u0645\u0648\u0632\u0634 \u0648 \u0631\u0627\u0647\u0646\u0645\u0627\u06CC\u06CC \u0646\u0635\u0628 \u062A\u0648\u0632\u06CC\u0639\u200C\u0647\u0627 \u0648 \u0628\u0633\u062A\u0647 \u0647\u0627\u06CC \u0646\u0631\u0645\u200C\u0627\u0641\u0632\u0627\u0631\u06CC")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90
+      lineNumber: 80
     },
     __self: this
   }, __jsx("img", {
@@ -15850,20 +15925,20 @@ var Index = function Index() {
     src: "/img/slider/slide-6.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 81
     },
     __self: this
   }), __jsx("h2", {
     style: sliderTxt,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 82
     },
     __self: this
-  }, "\u062F\u0633\u062A\u06A9\u0627\u0631\u06CC \u0648 \u0631\u0641\u0639 \u0627\u0634\u06A9\u0627\u0644 \u0628\u0631\u0646\u0627\u0645\u0647 \u0647\u0627 \u0648 \u0633\u062E\u062A \u0627\u0641\u0632\u0627\u0631 \u0647\u0627")), __jsx("div", {
+  }, "\u062F\u0633\u062A\u06A9\u0627\u0631\u06CC \u0648 \u0631\u0641\u0639 \u0627\u0634\u06A9\u0627\u0644 \u0628\u0631\u0646\u0627\u0645\u0647\u200C\u0647\u0627 \u0648 \u0633\u062E\u062A \u0627\u0641\u0632\u0627\u0631\u200C\u0647\u0627")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 84
     },
     __self: this
   }, __jsx("img", {
@@ -15871,21 +15946,21 @@ var Index = function Index() {
     src: "/img/slider/slide-7.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 85
     },
     __self: this
   }), __jsx("h2", {
     style: sliderTxt,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 86
     },
     __self: this
   }, "\u062C\u0633\u062A\u062C\u0648 \u0648 \u06CC\u0627\u062F\u06AF\u06CC\u0631\u06CC \u062F\u0631 \u062D\u0648\u0632\u0647 \u0647\u0627\u06CC \u0645\u062E\u062A\u0644\u0641"))))), __jsx("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102
+      lineNumber: 92
     },
     __self: this
   }, __jsx("div", {
@@ -15893,10 +15968,64 @@ var Index = function Index() {
     style: iconSection,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104
+      lineNumber: 94
     },
     __self: this
   }, __jsx("div", {
+    className: "col-lg-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96
+    },
+    __self: this
+  }, __jsx("img", {
+    style: iconImage,
+    src: "/img/icon/free-icon.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 97
+    },
+    __self: this
+  }), __jsx("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 98
+    },
+    __self: this
+  }, "\u0648\u0631\u0648\u062F \u0622\u0632\u0627\u062F \u0648 \u0631\u0627\u06CC\u06AF\u0627\u0646"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99
+    },
+    __self: this
+  }, "\u0648\u0631\u0648\u062F \u06A9\u0644\u06CC\u0647 \u0627\u0641\u0631\u0627\u062F \u0628\u0627 \u0647\u0631 \u062A\u062E\u0635\u0635\u06CC \u0648 \u0633\u0637\u062D \u062F\u0627\u0646\u0634\u060C \u0628\u0631\u0627\u06CC \u0634\u0631\u06A9\u062A \u062F\u0631 \u0644\u0627\u06AF \u0622\u0632\u0627\u062F \u0648 \u0631\u0627\u06CC\u06AF\u0627\u0646 \u0647\u0633\u062A. ")), __jsx("div", {
+    className: "col-lg-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101
+    },
+    __self: this
+  }, __jsx("img", {
+    style: iconImage,
+    src: "/img/icon/group-icon.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 102
+    },
+    __self: this
+  }), __jsx("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 103
+    },
+    __self: this
+  }, "\u0646\u0634\u0633\u062A \u062E\u0648\u062F\u0645\u0627\u0646\u06CC"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 104
+    },
+    __self: this
+  }, "\u0642\u0633\u0645\u062A \u0627\u0635\u0644\u06CC \u0644\u0627\u06AF \u06CC\u06A9 \u0646\u0634\u0633\u062A \u0648 \u0635\u062D\u0628\u062A \u062E\u0648\u062F\u0645\u0627\u0646\u06CC \u067E\u06CC\u0631\u0627\u0645\u0648\u0646 \u0627\u062E\u0628\u0627\u0631 \u0648 \u0645\u0628\u0627\u062D\u062B \u0639\u0644\u0645\u06CC \u0648 \u06A9\u0627\u0645\u067E\u06CC\u0648\u062A\u0631\u06CC \u0647\u0633\u062A.")), __jsx("div", {
     className: "col-lg-4",
     __source: {
       fileName: _jsxFileName,
@@ -15905,7 +16034,7 @@ var Index = function Index() {
     __self: this
   }, __jsx("img", {
     style: iconImage,
-    src: "/img/icon/free-icon.png",
+    src: "/img/icon/present-icon.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 107
@@ -15917,144 +16046,90 @@ var Index = function Index() {
       lineNumber: 108
     },
     __self: this
-  }, "\u0648\u0631\u0648\u062F \u0622\u0632\u0627\u062F \u0648 \u0631\u0627\u06CC\u06AF\u0627\u0646"), __jsx("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 109
-    },
-    __self: this
-  }, "\u0648\u0631\u0648\u062F \u06A9\u0644\u06CC\u0647 \u0627\u0641\u0631\u0627\u062F \u0628\u0627 \u0647\u0631 \u062A\u062E\u0635\u0635\u06CC \u0648 \u0633\u0637\u062D \u062F\u0627\u0646\u0634\u060C \u0628\u0631\u0627\u06CC \u0634\u0631\u06A9\u062A \u062F\u0631 \u0644\u0627\u06AF \u0622\u0632\u0627\u062F \u0648 \u0631\u0627\u06CC\u06AF\u0627\u0646 \u0647\u0633\u062A. ")), __jsx("div", {
-    className: "col-lg-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 111
-    },
-    __self: this
-  }, __jsx("img", {
-    style: iconImage,
-    src: "/img/icon/group-icon.png",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 112
-    },
-    __self: this
-  }), __jsx("h2", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 113
-    },
-    __self: this
-  }, "\u0646\u0634\u0633\u062A \u062E\u0648\u062F\u0645\u0627\u0646\u06CC"), __jsx("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 114
-    },
-    __self: this
-  }, "\u0642\u0633\u0645\u062A \u0627\u0635\u0644\u06CC \u0644\u0627\u06AF \u06CC\u06A9 \u0646\u0634\u0633\u062A \u0648 \u0635\u062D\u0628\u062A \u062E\u0648\u062F\u0645\u0627\u0646\u06CC \u067E\u06CC\u0631\u0627\u0645\u0648\u0646 \u0627\u062E\u0628\u0627\u0631 \u0648 \u0645\u0628\u0627\u062D\u062B \u0639\u0644\u0645\u06CC \u0648 \u06A9\u0627\u0645\u067E\u06CC\u0648\u062A\u0631\u06CC \u0647\u0633\u062A.")), __jsx("div", {
-    className: "col-lg-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 116
-    },
-    __self: this
-  }, __jsx("img", {
-    style: iconImage,
-    src: "/img/icon/present-icon.png",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 117
-    },
-    __self: this
-  }), __jsx("h2", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 118
-    },
-    __self: this
   }, "\u06A9\u0627\u0631\u06AF\u0627\u0647 \u0648 \u0627\u0631\u0627\u0626\u0647"), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119
+      lineNumber: 109
     },
     __self: this
   }, "\u062C\u0644\u0633\u0627\u062A \u0644\u0627\u06AF \u0628\u0647 \u0637\u0648\u0631 \u0645\u0639\u0645\u0648\u0644 \u0634\u0627\u0645\u0644 \u0627\u0631\u0627\u0626\u0647 \u0648 \u0622\u0645\u0648\u0632\u0634 \u0647\u0633\u062A \u0648\u0644\u06CC \u0627\u0632 \u06A9\u0646\u062C\u06A9\u0627\u0648\u06CC\u060C \u0633\u0648\u0627\u0644 \u0648 \u0627\u0634\u06A9\u0627\u0644 \u0647\u0645 \u0627\u0633\u062A\u0642\u0628\u0627\u0644 \u0645\u06CC\u200C\u0634\u0648\u062F. "))), __jsx("hr", {
     className: "featurette-divider",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123
+      lineNumber: 113
     },
     __self: this
   }), __jsx("section", {
     id: "about",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125
+      lineNumber: 115
     },
     __self: this
   }, __jsx("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126
+      lineNumber: 116
     },
     __self: this
   }, "\u062F\u0631\u0628\u0627\u0631\u0647 \u0645\u0627"), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127
+      lineNumber: 117
     },
     __self: this
   }, "\u0644\u0627\u06AF \u0631\u0627\u0645\u0633\u0631\u060C \u0646\u0634\u0633\u062A \u0647\u0641\u062A\u06AF\u06CC\u060C \u0639\u0645\u0648\u0645\u06CC \u0648 \u0631\u0627\u06CC\u06AF\u0627\u0646 \u0639\u0644\u0627\u0642\u0647\u200C\u0645\u0646\u062F\u0627\u0646 \u0628\u0647 \u062A\u06A9\u0646\u0648\u0644\u0648\u0698\u06CC \u0648 \u06A9\u0627\u0645\u067E\u06CC\u0648\u062A\u0631 \u0647\u0633\u062A\u060C \u0628\u0647 \u0647\u0645\u0631\u0627\u0647 \u0628\u062D\u062B \u0648 \u06AF\u0641\u062A\u06AF\u0648 \u062F\u0631 \u0632\u0645\u06CC\u0646\u0647 \u0647\u0627\u06CC \u0645\u062E\u062A\u0644\u0641 \u0648 \u06A9\u0627\u0631\u06AF\u0627\u0647 \u0648 \u0627\u0631\u0627\u0626\u0647 \u0647\u0627\u06CC \u06A9\u0648\u062A\u0627\u0647 \u062F\u0631 \u0632\u0645\u06CC\u0646\u0647 \u0647\u0627\u06CC \u0645\u062E\u062A\u0644\u0641."), __jsx("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128
+      lineNumber: 118
     },
     __self: this
   }, "\u0644\u0627\u06AF \u0686\u06CC\u0647\u060C \u0634\u0645\u0627 \u06A9\u06CC \u0647\u0633\u062A\u06CC\u062F \u0648 \u0686\u0647\u200C\u06A9\u0627\u0631\u06CC \u0645\u06CC\u200C\u06A9\u0646\u06CC\u062F\u061F "), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129
+      lineNumber: 119
     },
     __self: this
   }, "\u0644\u0627\u06AF (\u0628\u0647 \u0627\u0646\u06AF\u0644\u06CC\u0633\u06CC: LUG) \u0628\u0627 \u062D\u0631\u0641 \u0627\u0648\u0644 \u0648\u0627\u0698\u0647\u200C\u0647\u0627\u06CC \u0639\u0628\u0627\u0631\u062A Linux Users Group (\u062A\u0631\u062C\u0645\u0647: \u06AF\u0631\u0648\u0647 \u06A9\u0627\u0631\u0628\u0631\u0627\u0646 \u0644\u06CC\u0646\u0648\u06A9\u0633) \u0633\u0627\u062E\u062A\u0647 \u0634\u062F\u0647. \u0645\u0627 \u06AF\u0631\u0648\u0647\u06CC \u0627\u0632 \u0627\u0641\u0631\u0627\u062F \u062F\u0627\u0648\u0637\u0644\u0628\u0627\u0646\u0647\u060C \u063A\u06CC\u0631\u062F\u0648\u0644\u062A\u06CC \u0648 \u063A\u06CC\u0631\u0627\u0646\u062A\u0641\u0627\u0639\u06CC \u0647\u0633\u062A\u06CC\u0645 \u06A9\u0647 \u0646\u0634\u0633\u062A\u200C\u0647\u0627 \u0648 \u06AF\u0641\u062A\u06AF\u0648\u0647\u0627\u06CC\u06CC \u0631\u0648 \u062A\u0631\u062A\u06CC\u0628 \u0645\u06CC\u200C\u062F\u06CC\u0645 \u0648 \u0627\u06AF\u0631 \u0641\u0631\u0635\u062A\u0634 \u067E\u06CC\u0634 \u0628\u06CC\u0627\u062F \u0631\u0648\u06CC\u062F\u0627\u062F\u0647\u0627\u06CC\u06CC \u0627\u062C\u062A\u0645\u0627\u0639\u06CC \u0631\u0648 \u0628\u0631\u06AF\u0632\u0627\u0631 \u0645\u06CC\u200C\u06A9\u0646\u06CC\u0645. \u0627\u0647\u062F\u0627\u0641 \u0644\u0627\u06AF \u0627\u0632 \u0627\u06CC\u0646 \u0642\u0631\u0627\u0631\u0647: "), __jsx("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130
+      lineNumber: 120
     },
     __self: this
   }, __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131
+      lineNumber: 121
     },
     __self: this
   }, "\u0641\u0631\u0627\u0647\u0645 \u0622\u0648\u0631\u062F\u0646 \u0627\u06CC\u0646 \u0627\u0645\u06A9\u0627\u0646 \u0628\u0631\u0627\u06CC \u06A9\u0627\u0631\u0628\u0631\u0627\u0646 \u062F\u0631 \u0647\u0631 \u0633\u0646 \u0648 \u0628\u0627 \u0647\u0631 \u0632\u0645\u06CC\u0646\u0647\u200C\u0627\u06CC \u062A\u0627 \u0628\u0627 \u062F\u06CC\u06AF\u0631 \u06A9\u0627\u0631\u0628\u0631\u0627\u0646 \u0633\u06CC\u0633\u062A\u0645\u200C\u0639\u0627\u0645\u0644 \u06AF\u0646\u0648/\u0644\u06CC\u0646\u0648\u06A9\u0633 \u0648 \u0646\u0631\u0645\u200C\u0627\u0641\u0632\u0627\u0631\u0647\u0627\u06CC \u0622\u0632\u0627\u062F \u0627\u0631\u062A\u0628\u0627\u0637 \u0628\u06AF\u06CC\u0631\u0646\u062F. "), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 132
+      lineNumber: 122
     },
     __self: this
   }, "\u0628\u0647\u200C\u0648\u062C\u0648\u062F \u0622\u0648\u0631\u062F\u0646 \u0628\u0633\u062A\u0631\u06CC \u0628\u0631\u0627\u06CC \u067E\u0634\u062A\u06CC\u0628\u0627\u0646\u06CC \u0645\u062D\u0644\u06CC \u06A9\u0647 \u06A9\u0627\u0631\u0628\u0631\u0627\u0646 \u0628\u062A\u0648\u0627\u0646\u0646\u062F \u067E\u0631\u0633\u0634\u200C\u0647\u0627\u06CC \u062E\u0648\u062F \u0631\u0627 \u0645\u0637\u0631\u062D \u06A9\u0646\u0646\u062F. "), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133
+      lineNumber: 123
     },
     __self: this
   }, "\u0627\u0631\u0627\u0626\u0647 \u067E\u0634\u062A\u06CC\u0628\u0627\u0646\u06CC\u060C \u06A9\u0645\u06A9 \u0628\u0647 \u067E\u06CC\u0634\u0631\u0641\u062A \u0648 \u062F\u0641\u0627\u0639 \u0627\u0632 \u0627\u0641\u0631\u0627\u062F \u0648 \u0634\u0631\u06A9\u062A\u200C\u0647\u0627 \u0648 \u0635\u0646\u0627\u06CC\u0639 \u0645\u062D\u0644\u06CC \u06A9\u0647 \u062F\u0631 \u0628\u0633\u062A\u0631 \u0633\u06CC\u0633\u062A\u0645\u200C\u0639\u0627\u0645\u0644 \u06AF\u0646\u0648/\u0644\u06CC\u0646\u0648\u06A9\u0633 \u0648 \u0646\u0631\u0645\u200C\u0627\u0641\u0632\u0627\u0631\u0647\u0627\u06CC \u0622\u0632\u0627\u062F \u0648 \u06CC\u0627 \u062F\u0631 \u067E\u06CC\u0627\u062F\u0647\u200C\u0633\u0627\u0632\u06CC \u0622\u0646 \u0641\u0639\u0627\u0644\u06CC\u062A \u0645\u06CC\u200C\u06A9\u0646\u0646\u062F. "), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134
+      lineNumber: 124
     },
     __self: this
   }, "\u0628\u0631\u06AF\u0632\u0627\u0631\u06CC \u0648 \u067E\u0634\u062A\u06CC\u0628\u0627\u0646\u06CC \u0627\u0632 \u0631\u0648\u06CC\u062F\u0627\u062F\u0647\u0627\u06CC \u0627\u062C\u062A\u0645\u0627\u0639\u06CC \u0645\u062D\u0644\u06CC \u0628\u0627 \u0647\u062F\u0641 \u0627\u0631\u062A\u0642\u0627\u06CC \u062F\u0627\u0646\u0634 \u0648 \u0645\u0639\u0631\u0641\u06CC \u0627\u0628\u0632\u0627\u0631\u0647\u0627\u06CC \u0645\u0631\u062A\u0628\u0637 "), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135
+      lineNumber: 125
     },
     __self: this
   }, "\u0633\u0627\u062F\u0647\u200C\u0633\u0627\u0632\u06CC \u062F\u0633\u062A\u0631\u0633\u06CC \u0628\u0647 \u0645\u0646\u0627\u0628\u0639 \u0622\u0645\u0648\u0632\u0634\u06CC \u0648 \u062F\u0631 \u0635\u0648\u0631\u062A \u0627\u0645\u06A9\u0627\u0646 \u0622\u0645\u0648\u0632\u0634 \u06A9\u0627\u0631\u0628\u0631\u0627\u0646 \u0628\u0631\u0627\u06CC \u0627\u0633\u062A\u0641\u0627\u062F\u0647 \u0627\u0632 \u0633\u06CC\u0633\u062A\u0645\u200C\u0639\u0627\u0645\u0644 \u06AF\u0646\u0648/\u0644\u06CC\u0646\u0648\u06A9\u0633 \u0648 \u0646\u0631\u0645\u200C\u0627\u0641\u0632\u0627\u0631\u0647\u0627\u06CC \u0622\u0632\u0627\u062F"), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136
+      lineNumber: 126
     },
     __self: this
   }, "\u0645\u0639\u0631\u0641\u06CC \u0641\u0631\u0635\u062A\u200C\u0647\u0627\u06CC \u0634\u063A\u0644\u06CC \u0648 \u06A9\u0645\u06A9 \u0628\u0647 \u06AF\u0633\u062A\u0631\u0634 \u0628\u0627\u0632\u0627\u0631 \u06A9\u0627\u0631 \u0645\u062D\u0644\u06CC \u0628\u0631\u0627\u06CC \u06A9\u0627\u0631\u0628\u0631\u0627\u0646 \u0633\u06CC\u0633\u062A\u0645\u200C\u0639\u0627\u0645\u0644 \u06AF\u0646\u0648/\u0644\u06CC\u0646\u0648\u06A9\u0633 \u0648 \u0646\u0631\u0645\u200C\u0627\u0641\u0632\u0627\u0631\u0647\u0627\u06CC \u0622\u0632\u0627\u062F ")), __jsx("div", {
@@ -16062,81 +16137,78 @@ var Index = function Index() {
     style: moveLeftBtnDiv,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138
+      lineNumber: 128
     },
     __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
     href: "/about",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 139
+      lineNumber: 129
     },
     __self: this
   }, __jsx("a", {
     className: "btn btn-lg btn-primary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 139
+      lineNumber: 129
     },
     __self: this
   }, "\u0627\u0637\u0644\u0627\u0639\u0627\u062A \u0628\u06CC\u0634\u062A\u0631")))), __jsx("hr", {
     className: "featurette-divider",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 143
+      lineNumber: 133
     },
     __self: this
   }), __jsx("section", {
     id: "lastNews",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145
+      lineNumber: 135
     },
     __self: this
   }, __jsx("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 147
+      lineNumber: 137
     },
     __self: this
   }, "\u0622\u062E\u0631\u06CC\u0646 \u0644\u0627\u06AF \u0647\u0627"), __jsx("div", {
     className: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149
+      lineNumber: 139
     },
     __self: this
-  }, //console.log(info.lugDays)
-  _db_lugInfo__WEBPACK_IMPORTED_MODULE_5__.lugDays.sort(function (a, b) {
-    return a.id < b.id;
-  }).slice(0, 4).map(function (lug) {
+  }, props.lugs.map(function (lug, index) {
     return __jsx("div", {
       key: lug.id,
       className: "col-md-6 col-xs-12",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 154
+        lineNumber: 143
       },
       __self: this
     }, __jsx("div", {
       className: "card mb-3",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 155
+        lineNumber: 144
       },
       __self: this
     }, __jsx("div", {
       className: "row no-gutters",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 156
+        lineNumber: 145
       },
       __self: this
     }, __jsx("div", {
       className: "col-md-4",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 157
+        lineNumber: 146
       },
       __self: this
     }, __jsx("img", {
@@ -16145,88 +16217,125 @@ var Index = function Index() {
       alt: "lug pic " + lug.id,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 158
+        lineNumber: 147
       },
       __self: this
     })), __jsx("div", {
       className: "col-md-8",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 160
+        lineNumber: 149
       },
       __self: this
     }, __jsx("div", {
       className: "card-body",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 161
+        lineNumber: 150
       },
       __self: this
     }, __jsx("h5", {
       className: "card-title",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 162
+        lineNumber: 151
       },
       __self: this
     }, "لاگ " + lug.id), __jsx("p", {
       className: "card-text",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 163
+        lineNumber: 152
       },
       __self: this
-    }, lug.desc), __jsx("p", {
+    }, lug.desc), __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
+      href: "/lug/[id]",
+      as: "/lug/" + lug.id,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 153
+      },
+      __self: this
+    }, __jsx("a", {
+      className: "btn btn-sm btn-secondary float-left",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 154
+      },
+      __self: this
+    }, "\u0627\u0637\u0644\u0627\u0639\u0627\u062A \u0628\u06CC\u0634\u062A\u0631")), __jsx("p", {
       className: "card-text",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 164
+        lineNumber: 156
       },
       __self: this
     }, __jsx("small", {
       className: "text-muted",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 164
+        lineNumber: 156
       },
       __self: this
     }, lug.date)))))));
-  }))), __jsx("hr", {
+  })), __jsx("div", {
+    className: "row",
+    style: moveLeftBtnDiv,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 166
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
+    href: "/lugNews",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 167
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "btn btn-lg btn-primary",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 167
+    },
+    __self: this
+  }, "\u0644\u06CC\u0633\u062A \u0644\u0627\u06AF \u0647\u0627")))), __jsx("hr", {
     className: "featurette-divider",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 178
+      lineNumber: 173
     },
     __self: this
   }), __jsx("section", {
     id: "contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 180
+      lineNumber: 175
     },
     __self: this
   }, __jsx("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 181
+      lineNumber: 176
     },
     __self: this
   }, "\u0631\u0627\u0647 \u0647\u0627\u06CC \u0627\u0631\u062A\u0628\u0627\u0637\u06CC"), __jsx("div", {
     className: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 182
+      lineNumber: 177
     },
     __self: this
   }, __jsx("div", {
     className: "col-md-8 col-xs-12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 184
+      lineNumber: 179
     },
     __self: this
   }, __jsx("iframe", {
-    style: mapStyle,
+    className: "full-map",
     height: "350",
     frameBorder: "0",
     scrolling: "no",
@@ -16235,90 +16344,121 @@ var Index = function Index() {
     src: "https://www.openstreetmap.org/export/embed.html?bbox=50.64917206764222%2C36.910545928340646%2C50.65193474292755%2C36.912385994347076&layer=mapnik&marker=36.9114659668923%2C50.65055340528488",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 185
+      lineNumber: 180
     },
     __self: this
   }), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 185
+      lineNumber: 180
     },
     __self: this
   }), __jsx("small", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 185
+      lineNumber: 180
     },
     __self: this
   }, __jsx("a", {
     href: "https://www.openstreetmap.org/?mlat=36.91147&mlon=50.65055#map=19/36.91147/50.65055",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 185
+      lineNumber: 180
     },
     __self: this
   }, "View Larger Map"))), __jsx("div", {
     className: "col-md-3 col-xs-12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 188
+      lineNumber: 183
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 189
+      lineNumber: 184
     },
     __self: this
   }, "\u0622\u062F\u0631\u0633:"), __jsx("address", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 190
+      lineNumber: 185
     },
     __self: this
   }, "\u0631\u0627\u0645\u0633\u0631 - \u0627\u0628\u0631\u06CC\u0634\u0645 \u0645\u062D\u0644\u0647 - \u0646\u06AF\u0627\u0631\u062E\u0627\u0646\u0647 \u062D\u06CC\u0627\u0637 \u062D\u06CC\u0627\u062A"), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 191
+      lineNumber: 186
     },
     __self: this
   }, "\u062A\u0644\u0641\u0646: ", __jsx("a", {
     href: "tel:+981155229119",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 191
+      lineNumber: 186
     },
     __self: this
   }, "01155229119")), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 192
+      lineNumber: 187
     },
     __self: this
   }, "\u0635\u0641\u062D\u0647 \u0627\u06CC\u0646\u0633\u062A\u0627\u06AF\u0631\u0627\u0645: ", __jsx("a", {
-    style: EnglishLink,
     href: "https://instagram.com/Ramsarlug/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 192
+      lineNumber: 187
     },
     __self: this
   }, "RamsarLug@")), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 193
+      lineNumber: 188
     },
     __self: this
   }, "\u06AF\u0631\u0648\u0647 \u062A\u0644\u06AF\u0631\u0627\u0645 : ", __jsx("a", {
     href: "https://t.me/ramsarlug",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 193
+      lineNumber: 188
     },
     __self: this
   }, "RamsarLug@")))))));
 };
 
+Index.getInitialProps =
+/*#__PURE__*/
+Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
+/*#__PURE__*/
+_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
+  var res, data;
+  return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+    while (1) {
+      switch (_context.prev = _context.next) {
+        case 0:
+          _context.next = 2;
+          return isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_7___default()('https://apdr.ir/api/lugs/4');
+
+        case 2:
+          res = _context.sent;
+          _context.next = 5;
+          return res.json();
+
+        case 5:
+          data = _context.sent;
+          return _context.abrupt("return", {
+            lugs: data.lugs // data.map(entry => entry.lugs)
+
+          });
+
+        case 7:
+        case "end":
+          return _context.stop();
+      }
+    }
+  }, _callee);
+}));
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ }),
