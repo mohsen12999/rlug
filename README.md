@@ -15,7 +15,7 @@
 - [x] Quantom Computers
 - [x] hacktoberfest
 - [x] Gnu project
-- [ ] Free software Foundation
+- [x] Free software Foundation
 - [ ] Free software movement
 - [ ] Free software Licence Like GPL (Gnu Public Licence)
 - [ ] block-chain
@@ -36,8 +36,9 @@
 - [x] Erwin Schrödinger
 - [x] Linus Torvalds
 - [x] Eric Raymond
-- [ ] Dennis Ritchie
+- [x] Dennis Ritchie
 - [ ] Ken Thompson
+- [ ] Brian Kernighan 
 - [ ] Douglas McIlroy
 - [ ] Joe Ossanna
 - [ ] Brian Kernisham
@@ -62,7 +63,7 @@
 - [x] man
 - [x] sudo
 - [x] ls
-- [ ] alias
+- [x] alias
 - [ ] cat
 - [ ] cd
 - [ ] chmod
