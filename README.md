@@ -5,9 +5,9 @@
 ## Website
 
 - [x] make static website
-- [ ] add map
+- [x] add database
+- [ ] add website map
 - [ ] add social network
-- [ ] add database
 
 ## Present
 
@@ -16,7 +16,7 @@
 - [x] hacktoberfest
 - [x] Gnu project
 - [x] Free software Foundation
-- [ ] Free software movement
+- [x] Free software movement
 - [ ] Free software Licence Like GPL (Gnu Public Licence)
 - [ ] block-chain
 - [ ] crypto-currency
@@ -37,8 +37,8 @@
 - [x] Linus Torvalds
 - [x] Eric Raymond
 - [x] Dennis Ritchie
-- [ ] Ken Thompson
-- [ ] Brian Kernighan 
+- [x] Ken Thompson
+- [ ] Brian Kernighan
 - [ ] Douglas McIlroy
 - [ ] Joe Ossanna
 - [ ] Brian Kernisham
@@ -64,7 +64,7 @@
 - [x] sudo
 - [x] ls
 - [x] alias
-- [ ] cat
+- [x] cat
 - [ ] cd
 - [ ] chmod
 - [ ] chown
@@ -102,10 +102,15 @@
 - [ ] whoami
 - [ ] file
 
+- [فهرست دستورات لینوکس](https://tml-manager.ir/%D9%81%D9%87%D8%B1%D8%B3%D8%AA-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D8%AA-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3/)
+- [مرجع دستورات ترمینال لینوکس](http://linuxihaa.ir/%D9%85%D8%B1%D8%AC%D8%B9-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D8%AA-%D8%AA%D8%B1%D9%85%DB%8C%D9%86%D8%A7%D9%84-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3/)
+- [آشنایی با برخی از دستورات مقدماتی و کلیدهای ترکیبی در لینوکس](https://linux.tosinso.com/fa/articles/7177/%D8%A2%D8%B4%D9%86%D8%A7%DB%8C%DB%8C-%D8%A8%D8%A7-%D8%A8%D8%B1%D8%AE%DB%8C-%D8%A7%D8%B2-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D8%AA-%D9%85%D9%82%D8%AF%D9%85%D8%A7%D8%AA%DB%8C-%D9%88-%DA%A9%D9%84%DB%8C%D8%AF%D9%87%D8%A7%DB%8C-%D8%AA%D8%B1%DA%A9%DB%8C%D8%A8%DB%8C-%D8%AF%D8%B1-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3)
+- [دستورات سرور لینوکس](https://webnology.ir/1484/server-management/linux/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D8%AA-%D8%B3%D8%B1%D9%88%D8%B1-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3-%D9%82%D8%B3%D9%85%D8%AA-%D8%A7%D9%88%D9%84/)
+
 ## Film
 
 - [x] The Code (2001)
-- [ ] Revolution OS (2001)
+- [x] Revolution OS (2001)
 
 ## Book
 
