@@ -14,6 +14,7 @@ const Lug = (props) => {
                     <img src={props.lug.pic} className="rounded" alt={"لاگ " + props.lug.id} />
                     <h1>لاگ {query.id}</h1>
                     <small className="text-muted">{props.lug.date}</small>
+                    <p>{props.lug.desc}</p>
                 </div>
 
                 {
