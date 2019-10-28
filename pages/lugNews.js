@@ -1,6 +1,5 @@
 import Link from "next/link";
 import WebsiteLayout from "../components/websiteLayout";
-import info from '../db/lugInfo';
 
 import fetch from 'isomorphic-unfetch';
 
