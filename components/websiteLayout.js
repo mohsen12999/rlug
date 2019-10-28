@@ -12,6 +12,22 @@ const WebsiteLayout = props => (
 
         <Head>
             <title>لاگ رامسر</title>
+            <meta name="description" content="وبسایت لاگ رامسر، نشست هفتگی، عمومی و رایگان علاقه‌مندان به تکنولوژی و کامپیوتر در رامسر" />
+            <meta name="keywords" content="RamsarLug, lug, linux, user, group, ramsar, رامسرلاگ, رامسر, لاگ, لینوکس" />
+
+            <meta name="author" content="محسن شعبانیان" />
+            <link rel="me" href="https://MohsenShabanian.com/" type="text/html" />
+            <link rel="me" href="mailto:mohsen1299@gmail.com" />
+            <link rel="me" href="sms:+989113923310" />
+
+            <meta name="twitter:card" content="وبسایت لاگ رامسر، نشست هفتگی، عمومی و رایگان علاقه‌مندان به تکنولوژی و کامپیوتر در رامسر" />
+            <meta name="twitter:creator" content="@mohsen1299" />
+            <meta name="twitter:url" content="https://rlug.ir/" />
+            <meta name="twitter:title" content="لاگ رامسر" />
+            <meta name="twitter:description" content="وبسایت لاگ رامسر، نشست هفتگی، عمومی و رایگان علاقه‌مندان به تکنولوژی و کامپیوتر در رامسر" />
+            <meta name="twitter:image" content="https://rlug.ir/img/logo.png" />
+            <meta name="twitter:image:alt" content="وبسایت لاگ رامسر، نشست هفتگی، عمومی و رایگان علاقه‌مندان به تکنولوژی و کامپیوتر در رامسر" />
+
             <link rel="icon" href="/favicon.ico" type="image/x-icon" />
             {/* <link rel="stylesheet" href="/css/bootstrap.min.css" /> */}
             <link rel="stylesheet" href="/css/style.css" />
