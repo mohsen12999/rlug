@@ -46,13 +46,118 @@ var WebsiteLayout = function WebsiteLayout(props) {
       lineNumber: 14
     },
     __self: this
-  }, "\u0644\u0627\u06AF \u0631\u0627\u0645\u0633\u0631"), __jsx("link", {
+  }, "\u0644\u0627\u06AF \u0631\u0627\u0645\u0633\u0631"), __jsx("meta", {
+    name: "description",
+    content: "\u0648\u0628\u0633\u0627\u06CC\u062A \u0644\u0627\u06AF \u0631\u0627\u0645\u0633\u0631\u060C \u0646\u0634\u0633\u062A \u0647\u0641\u062A\u06AF\u06CC\u060C \u0639\u0645\u0648\u0645\u06CC \u0648 \u0631\u0627\u06CC\u06AF\u0627\u0646 \u0639\u0644\u0627\u0642\u0647\u200C\u0645\u0646\u062F\u0627\u0646 \u0628\u0647 \u062A\u06A9\u0646\u0648\u0644\u0648\u0698\u06CC \u0648 \u06A9\u0627\u0645\u067E\u06CC\u0648\u062A\u0631 \u062F\u0631 \u0631\u0627\u0645\u0633\u0631",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }), __jsx("meta", {
+    name: "keywords",
+    content: "RamsarLug, lug, linux, user, group, ramsar, \u0631\u0627\u0645\u0633\u0631\u0644\u0627\u06AF, \u0631\u0627\u0645\u0633\u0631, \u0644\u0627\u06AF, \u0644\u06CC\u0646\u0648\u06A9\u0633",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }), __jsx("meta", {
+    name: "author",
+    content: "\u0645\u062D\u0633\u0646 \u0634\u0639\u0628\u0627\u0646\u06CC\u0627\u0646",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }), __jsx("link", {
+    rel: "me",
+    href: "https://MohsenShabanian.com/",
+    type: "text/html",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }), __jsx("link", {
+    rel: "me",
+    href: "mailto:mohsen1299@gmail.com",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }), __jsx("link", {
+    rel: "me",
+    href: "sms:+989113923310",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }), __jsx("meta", {
+    name: "twitter:card",
+    content: "\u0648\u0628\u0633\u0627\u06CC\u062A \u0644\u0627\u06AF \u0631\u0627\u0645\u0633\u0631\u060C \u0646\u0634\u0633\u062A \u0647\u0641\u062A\u06AF\u06CC\u060C \u0639\u0645\u0648\u0645\u06CC \u0648 \u0631\u0627\u06CC\u06AF\u0627\u0646 \u0639\u0644\u0627\u0642\u0647\u200C\u0645\u0646\u062F\u0627\u0646 \u0628\u0647 \u062A\u06A9\u0646\u0648\u0644\u0648\u0698\u06CC \u0648 \u06A9\u0627\u0645\u067E\u06CC\u0648\u062A\u0631 \u062F\u0631 \u0631\u0627\u0645\u0633\u0631",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }), __jsx("meta", {
+    name: "twitter:creator",
+    content: "@mohsen1299",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }), __jsx("meta", {
+    name: "twitter:url",
+    content: "https://rlug.ir/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }), __jsx("meta", {
+    name: "twitter:title",
+    content: "\u0644\u0627\u06AF \u0631\u0627\u0645\u0633\u0631",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }), __jsx("meta", {
+    name: "twitter:description",
+    content: "\u0648\u0628\u0633\u0627\u06CC\u062A \u0644\u0627\u06AF \u0631\u0627\u0645\u0633\u0631\u060C \u0646\u0634\u0633\u062A \u0647\u0641\u062A\u06AF\u06CC\u060C \u0639\u0645\u0648\u0645\u06CC \u0648 \u0631\u0627\u06CC\u06AF\u0627\u0646 \u0639\u0644\u0627\u0642\u0647\u200C\u0645\u0646\u062F\u0627\u0646 \u0628\u0647 \u062A\u06A9\u0646\u0648\u0644\u0648\u0698\u06CC \u0648 \u06A9\u0627\u0645\u067E\u06CC\u0648\u062A\u0631 \u062F\u0631 \u0631\u0627\u0645\u0633\u0631",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }), __jsx("meta", {
+    name: "twitter:image",
+    content: "https://rlug.ir/img/logo.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }), __jsx("meta", {
+    name: "twitter:image:alt",
+    content: "\u0648\u0628\u0633\u0627\u06CC\u062A \u0644\u0627\u06AF \u0631\u0627\u0645\u0633\u0631\u060C \u0646\u0634\u0633\u062A \u0647\u0641\u062A\u06AF\u06CC\u060C \u0639\u0645\u0648\u0645\u06CC \u0648 \u0631\u0627\u06CC\u06AF\u0627\u0646 \u0639\u0644\u0627\u0642\u0647\u200C\u0645\u0646\u062F\u0627\u0646 \u0628\u0647 \u062A\u06A9\u0646\u0648\u0644\u0648\u0698\u06CC \u0648 \u06A9\u0627\u0645\u067E\u06CC\u0648\u062A\u0631 \u062F\u0631 \u0631\u0627\u0645\u0633\u0631",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }), __jsx("link", {
     rel: "icon",
     href: "/favicon.ico",
     type: "image/x-icon",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 31
     },
     __self: this
   }), __jsx("link", {
@@ -60,28 +165,28 @@ var WebsiteLayout = function WebsiteLayout(props) {
     href: "/css/style.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 33
     },
     __self: this
   })), __jsx("nav", {
     className: "navbar navbar-expand-lg  sticky-top navbar-dark bg-dark",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 36
     },
     __self: this
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 37
     },
     __self: this
   }, __jsx("a", {
     className: "navbar-brand",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 37
     },
     __self: this
   }, __jsx("img", {
@@ -92,84 +197,84 @@ var WebsiteLayout = function WebsiteLayout(props) {
     alt: "logo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 38
     },
     __self: this
   }), "\u0644\u0627\u06AF \u0631\u0627\u0645\u0633\u0631")), __jsx("ul", {
     className: "navbar-nav",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 43
     },
     __self: this
   }, __jsx("li", {
     className: "nav-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 45
     },
     __self: this
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 46
     },
     __self: this
   }, __jsx("a", {
     className: "nav-link",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 46
     },
     __self: this
   }, "\u0635\u0641\u062D\u0647 \u0627\u0635\u0644\u06CC"))), __jsx("li", {
     className: "nav-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 48
     },
     __self: this
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/about",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 49
     },
     __self: this
   }, __jsx("a", {
     className: "nav-link",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 49
     },
     __self: this
   }, "\u062F\u0631\u0628\u0627\u0631\u0647 \u0645\u0627"))), __jsx("li", {
     className: "nav-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 51
     },
     __self: this
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/lugNews",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 52
     },
     __self: this
   }, __jsx("a", {
     className: "nav-link",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 52
     },
     __self: this
   }, "\u0627\u062E\u0628\u0627\u0631 \u0644\u0627\u06AF \u0647\u0627"))), __jsx("li", {
     className: "nav-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 54
     },
     __self: this
   }, __jsx("a", {
@@ -177,14 +282,14 @@ var WebsiteLayout = function WebsiteLayout(props) {
     className: "nav-link",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 55
     },
     __self: this
   }, "\u0633\u0627\u06CC\u0631 \u0644\u0627\u06AF \u0647\u0627")), __jsx("li", {
     className: "nav-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 57
     },
     __self: this
   }, __jsx("a", {
@@ -192,40 +297,40 @@ var WebsiteLayout = function WebsiteLayout(props) {
     className: "nav-link",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 58
     },
     __self: this
   }, "\u06AF\u06CC\u062A \u0647\u0627\u0628")))), __jsx("div", {
     style: fullpage,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 64
     },
     __self: this
   }, props.children), __jsx("footer", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 68
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 69
     },
     __self: this
   }, "\u0637\u0631\u0627\u062D\u06CC \u062A\u0648\u0633\u0637 ", __jsx("a", {
     href: "http://mohsenshabanian.com",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 69
     },
     __self: this
   }, "\u0645\u062D\u0633\u0646 \u0634\u0639\u0628\u0627\u0646\u06CC\u0627\u0646"), " \u0628\u0627 \u06A9\u0645\u06A9 ", __jsx("a", {
     href: "https://getbootstrap.com",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 69
     },
     __self: this
   }, "\u0628\u0648\u062A \u0627\u0633\u062A\u0631\u067E"))));
@@ -11014,6 +11119,31 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
 
+function sectionType(type) {
+  switch (type) {
+    case "Present":
+      return "ارائه هفته";
+
+    case "Person":
+      return "شخصیت هفته";
+
+    case "Command":
+      return "دستور لینوکسی هفته";
+
+    case "Discuss":
+      return "بحث هفته";
+
+    case "Book":
+      return "کتاب هفته";
+
+    case "Podcast":
+      return "پادکست هفته";
+
+    default:
+      return "";
+  }
+}
+
 var Lug = function Lug(props) {
   var _useRouter = Object(next_router__WEBPACK_IMPORTED_MODULE_4__["useRouter"])(),
       query = _useRouter.query;
@@ -11021,7 +11151,7 @@ var Lug = function Lug(props) {
   return __jsx(_components_websiteLayout__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 30
     },
     __self: this
   }, __jsx("div", {
@@ -11029,14 +11159,14 @@ var Lug = function Lug(props) {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 31
     },
     __self: this
   }, __jsx("div", {
     className: "text-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 33
     },
     __self: this
   }, __jsx("img", {
@@ -11045,36 +11175,42 @@ var Lug = function Lug(props) {
     alt: "لاگ " + props.lug.id,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 34
     },
     __self: this
   }), __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 35
     },
     __self: this
   }, "\u0644\u0627\u06AF ", query.id), __jsx("small", {
     className: "text-muted",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 36
     },
     __self: this
-  }, props.lug.date)), props.sections.map(function (section, index) {
+  }, props.lug.date), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, props.lug.desc)), props.sections.map(function (section, index) {
     return __jsx("div", {
       key: index,
       className: "row mt-3",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21
+        lineNumber: 41
       },
       __self: this
     }, __jsx("div", {
       className: "col-md-3 col-xs-12",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22
+        lineNumber: 42
       },
       __self: this
     }, __jsx("img", {
@@ -11083,48 +11219,48 @@ var Lug = function Lug(props) {
       alt: section.name,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23
+        lineNumber: 43
       },
       __self: this
     })), __jsx("div", {
       className: "col-md-8 col-xs-12",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25
+        lineNumber: 45
       },
       __self: this
     }, __jsx("h5", {
       className: "card-title",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26
+        lineNumber: 46
       },
       __self: this
     }, section.name), __jsx("small", {
       className: "text-muted",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 27
+        lineNumber: 47
       },
       __self: this
-    }, section.type), __jsx("br", {
+    }, sectionType(section.type)), __jsx("br", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 27
+        lineNumber: 47
       },
       __self: this
-    }), __jsx("small", {
+    }), section.author !== "" && __jsx("small", {
       className: "text-muted",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28
+        lineNumber: 49
       },
       __self: this
     }, "توسط " + section.author), __jsx("p", {
       className: "card-text",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 29
+        lineNumber: 51
       },
       __self: this
     }, section.body), section.file !== "" && __jsx("a", {
@@ -11132,7 +11268,7 @@ var Lug = function Lug(props) {
       download: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32
+        lineNumber: 53
       },
       __self: this
     }, "\u0641\u0627\u06CC\u0644 \u0627\u0631\u0627\u0626\u0647")));
@@ -11183,7 +11319,7 @@ function () {
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!***********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Flug%2F%5Bid%5D&absolutePagePath=D%3A%5CProject%5Cmy%20Project%5Crlug%5Cpages%5Clug%5C%5Bid%5D.js ***!
   \***********************************************************************************************************************************************/
@@ -11206,5 +11342,5 @@ module.exports = dll_13346faca0e924a89b24;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js","styles"]]]);
+},[[4,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=[id].js.map
