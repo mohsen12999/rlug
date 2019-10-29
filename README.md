@@ -8,7 +8,7 @@
 - [x] add database
 - [ ] add website map
 - [ ] add social network
-- [ ] use md file
+- [ ] use md file in lug section desc
 
 ## Present
 
@@ -30,6 +30,10 @@
 - [ ] Bell lab
 - [ ] Unix
 - [ ] Bsd
+- [ ] what is linux
+- [ ] what is os
+- [ ] what is kernel
+- [ ] what is shell
 
 ## Person
 
@@ -39,6 +43,7 @@
 - [x] Eric Raymond
 - [x] Dennis Ritchie
 - [x] Ken Thompson
+- [ ] Margaret Hamilton
 - [ ] Brian Kernighan
 - [ ] Douglas McIlroy
 - [ ] Joe Ossanna
