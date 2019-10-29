@@ -66,7 +66,7 @@ const WebsiteLayout = props => (
         </div>
 
         <footer >
-            <p >طراحی توسط <a href="http://mohsenshabanian.com">محسن شعبانیان</a> با کمک <a href="https://getbootstrap.com">بوت استرپ</a></p>
+            <p >طراحی توسط <a href="http://mohsenshabanian.com">محسن شعبانیان</a> و سعید رستمی با کمک <a href="https://getbootstrap.com">بوت استرپ</a></p>
         </footer>
     </div>
 );
