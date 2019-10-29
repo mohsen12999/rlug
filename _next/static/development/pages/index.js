@@ -326,7 +326,7 @@ var WebsiteLayout = function WebsiteLayout(props) {
       lineNumber: 69
     },
     __self: this
-  }, "\u0645\u062D\u0633\u0646 \u0634\u0639\u0628\u0627\u0646\u06CC\u0627\u0646"), " \u0628\u0627 \u06A9\u0645\u06A9 ", __jsx("a", {
+  }, "\u0645\u062D\u0633\u0646 \u0634\u0639\u0628\u0627\u0646\u06CC\u0627\u0646"), " \u0648 \u0633\u0639\u06CC\u062F \u0631\u0633\u062A\u0645\u06CC \u0628\u0627 \u06A9\u0645\u06A9 ", __jsx("a", {
     href: "https://getbootstrap.com",
     __source: {
       fileName: _jsxFileName,
