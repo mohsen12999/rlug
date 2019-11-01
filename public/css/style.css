@@ -99,6 +99,7 @@ footer p a {
   width: 100%;
 }
 
-p.card-text {
+p.card-text,
+div.card-text {
   text-align: justify;
 }

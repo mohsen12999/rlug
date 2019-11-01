@@ -49,6 +49,8 @@
 - [ ] Joe Ossanna
 - [ ] Brian Kernisham
 - [ ] Bjarne Stroustrup
+- [ ] katie bouman
+- [ ] Grace Hopper
 
 - [ ] Geoffrey Knauth
 - [ ] Gerald Jay Sussman
@@ -71,10 +73,9 @@
 - [x] ls
 - [x] alias
 - [x] cat
-- [ ] cd
+- [ ] curl
 - [ ] chmod
 - [ ] chown
-- [ ] curl
 - [ ] df
 - [ ] diff
 - [ ] echo
@@ -90,8 +91,8 @@
 - [ ] kill
 - [ ] less
 - [ ] ls
-- [ ] man
 - [ ] mkdir
+- [ ] cd
 - [ ] mv
 - [ ] passwd
 - [ ] ping
