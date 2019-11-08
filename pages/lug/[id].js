@@ -1,7 +1,7 @@
 import WebsiteLayout from "../../components/websiteLayout";
 import { useRouter } from 'next/router';
-
 import fetch from 'isomorphic-unfetch';
+import { Remarkable } from 'remarkable';
 
 function sectionType(type) {
     switch (type) {
@@ -23,6 +23,8 @@ function sectionType(type) {
     }
 }
 
+var md = new Remarkable();
+
 const Lug = (props) => {
     const { query } = useRouter();
 
@@ -35,6 +37,7 @@ const Lug = (props) => {
                     <h1>لاگ {query.id}</h1>
                     <small className="text-muted">{props.lug.date}</small>
                     <p>{props.lug.desc}</p>
+
                 </div>
 
                 {props.sections.map((section, index) => (
@@ -48,7 +51,10 @@ const Lug = (props) => {
                             {section.author !== "" && (
                                 <small className="text-muted">{"توسط " + section.author}</small>
                             )}
-                            <p className="card-text">{section.body}</p>
+                            {/* <p className="card-text">{section.body}</p> */}
+
+                            <div className="card-text" dangerouslySetInnerHTML={{ __html: md.render(section.body) }} />
+
                             {section.file !== "" && (
                                 <a href={section.file} download>فایل ارائه</a>
                             )}
