@@ -18,6 +18,9 @@
 - [x] Gnu project
 - [x] Free software Foundation
 - [x] Free software movement
+- [x] gnu/linux
+- [x] version control
+- [x] git
 - [ ] Free software Licence Like GPL (Gnu Public Licence)
 - [ ] block-chain
 - [ ] crypto-currency
@@ -43,7 +46,8 @@
 - [x] Eric Raymond
 - [x] Dennis Ritchie
 - [x] Ken Thompson
-- [ ] Margaret Hamilton
+- [x] Margaret Hamilton
+- [x] James Gosling
 - [ ] Brian Kernighan
 - [ ] Douglas McIlroy
 - [ ] Joe Ossanna
@@ -73,9 +77,9 @@
 - [x] ls
 - [x] alias
 - [x] cat
-- [ ] curl
-- [ ] chmod
-- [ ] chown
+- [x] curl
+- [x] chmod
+- [x] chown
 - [ ] df
 - [ ] diff
 - [ ] echo
