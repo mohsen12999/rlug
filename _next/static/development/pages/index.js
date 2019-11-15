@@ -17,7 +17,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
 /* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "D:\\Project\\my Project\\rlug\\components\\websiteLayout.js";
+var _jsxFileName = "d:\\Project\\my Project\\rlug\\components\\websiteLayout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -6049,9 +6049,9 @@ module.exports = debounce;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CProject%5Cmy%20Project%5Crlug%5Cpages%5Cindex.js!./":
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=d%3A%5CProject%5Cmy%20Project%5Crlug%5Cpages%5Cindex.js!./":
 /*!********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CProject%5Cmy%20Project%5Crlug%5Cpages%5Cindex.js ***!
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=d%3A%5CProject%5Cmy%20Project%5Crlug%5Cpages%5Cindex.js ***!
   \********************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -15825,7 +15825,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "D:\\Project\\my Project\\rlug\\pages\\index.js";
+var _jsxFileName = "d:\\Project\\my Project\\rlug\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement;
 
@@ -16570,12 +16570,12 @@ _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(f
 
 /***/ 0:
 /*!************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5CProject%5Cmy%20Project%5Crlug%5Cpages%5Cindex.js ***!
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=d%3A%5CProject%5Cmy%20Project%5Crlug%5Cpages%5Cindex.js ***!
   \************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5CProject%5Cmy%20Project%5Crlug%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CProject%5Cmy%20Project%5Crlug%5Cpages%5Cindex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=d%3A%5CProject%5Cmy%20Project%5Crlug%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=d%3A%5CProject%5Cmy%20Project%5Crlug%5Cpages%5Cindex.js!./");
 
 
 /***/ }),
