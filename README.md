@@ -23,9 +23,9 @@
 - [x] git
 - [x] os
 - [ ] some os history - bsd unix , ...
-- [ ] GPL (Gnu Public Licence)
+- [x] GPL (Gnu Public Licence)
 - [ ] Free software Licence Like GPL (Gnu Public Licence)
-- [ ] block-chain
+- [x] block-chain
 - [ ] crypto-currency
 - [ ] encryption (history - kind)
 - [ ] linux file system
@@ -52,6 +52,8 @@
 - [x] James Gosling
 - [x] Niklaus_Wirth
 - [x] Anders Hejlsberg
+- [x] Brendan Eich
+- [ ] Jamie Zawinski
 - [ ] Brian Kernighan
 - [ ] Douglas McIlroy
 - [ ] Joe Ossanna
@@ -86,7 +88,7 @@
 - [x] chown
 - [x] df
 - [x] diff
-- [ ] du
+- [x] du
 - [ ] echo
 - [ ] exit
 - [ ] find
