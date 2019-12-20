@@ -78,6 +78,8 @@
 - [ ] Eben Moglen
 - [ ] Len Tower Jr.
 
+- [ ] Benevolent dictator for life
+
 ## Command
 
 - [x] nohup
