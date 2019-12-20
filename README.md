@@ -22,10 +22,11 @@
 - [x] version control
 - [x] git
 - [x] os
-- [ ] some os history - bsd unix , ...
 - [x] GPL (Gnu Public Licence)
-- [ ] Free software Licence Like GPL (Gnu Public Licence)
 - [x] block-chain
+- [x] history of unix
+- [ ] some os history - bsd unix , ...
+- [ ] Free software Licence Like GPL (Gnu Public Licence)
 - [ ] crypto-currency
 - [ ] encryption (history - kind)
 - [ ] linux file system
@@ -53,6 +54,8 @@
 - [x] Niklaus_Wirth
 - [x] Anders Hejlsberg
 - [x] Brendan Eich
+- [x] Guido van Rossum
+
 - [ ] Jamie Zawinski
 - [ ] Brian Kernighan
 - [ ] Douglas McIlroy
@@ -89,7 +92,7 @@
 - [x] df
 - [x] diff
 - [x] du
-- [ ] echo
+- [x] echo
 - [ ] exit
 - [ ] find
 - [ ] finger
@@ -144,3 +147,12 @@
 - [klug](https://klug.ir)
 - [gullug](https://gullug.ir)
 - [kshlug](https://kshlug.ir/)
+
+## usefull command
+
+* for remove space in file name
+
+```sh
+for f in *\ *; do mv "$f" "${f// /}"; done
+```
+
