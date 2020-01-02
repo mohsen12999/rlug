@@ -25,6 +25,7 @@
 - [x] GPL (Gnu Public Licence)
 - [x] block-chain
 - [x] history of unix
+- [x] operation system
 - [ ] some os history - bsd unix , ...
 - [ ] Free software Licence Like GPL (Gnu Public Licence)
 - [ ] crypto-currency
@@ -55,6 +56,8 @@
 - [x] Anders Hejlsberg
 - [x] Brendan Eich
 - [x] Guido van Rossum
+- [x] larry wall
+- [x] Rasmus-Lerdorf
 
 - [ ] Jamie Zawinski
 - [ ] Brian Kernighan
@@ -95,8 +98,8 @@
 - [x] diff
 - [x] du
 - [x] echo
-- [ ] exit
-- [ ] find
+- [x] exit
+- [x] find
 - [ ] finger
 - [ ] free
 - [ ] grep
