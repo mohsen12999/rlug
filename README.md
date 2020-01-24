@@ -26,6 +26,7 @@
 - [x] block-chain
 - [x] history of unix
 - [x] operation system
+- [ ] utf-8
 - [ ] some os history - bsd unix , ...
 - [ ] Free software Licence Like GPL (Gnu Public Licence)
 - [ ] crypto-currency
@@ -109,7 +110,7 @@
 - [x] Ken Thompson, designer of B and co-designer of Go
 - [x] Larry Wall, designer of Perl
 - [ ] Philip Wadler, co-designer of Haskell
-- [ ] Niklaus Wirth, designer of Pascal, Modula-2
+- [x] Niklaus Wirth, designer of Pascal, Modula-2
 - [ ] Stephen Wolfram, creator of Mathematica and Wolfram Language
 
 ## Command
@@ -131,7 +132,7 @@
 - [x] find
 - [x] free
 - [x] grep
-- [ ] groups
+- [x] groups
 - [ ] gzip
 - [ ] head
 - [ ] history
@@ -157,6 +158,7 @@
 - [ ] file
 - [ ] info
 - [ ] finger
+- [ ] id
 - [فهرست دستورات لینوکس](https://tml-manager.ir/%D9%81%D9%87%D8%B1%D8%B3%D8%AA-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D8%AA-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3/)
 - [مرجع دستورات ترمینال لینوکس](http://linuxihaa.ir/%D9%85%D8%B1%D8%AC%D8%B9-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D8%AA-%D8%AA%D8%B1%D9%85%DB%8C%D9%86%D8%A7%D9%84-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3/)
 - [آشنایی با برخی از دستورات مقدماتی و کلیدهای ترکیبی در لینوکس](https://linux.tosinso.com/fa/articles/7177/%D8%A2%D8%B4%D9%86%D8%A7%DB%8C%DB%8C-%D8%A8%D8%A7-%D8%A8%D8%B1%D8%AE%DB%8C-%D8%A7%D8%B2-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D8%AA-%D9%85%D9%82%D8%AF%D9%85%D8%A7%D8%AA%DB%8C-%D9%88-%DA%A9%D9%84%DB%8C%D8%AF%D9%87%D8%A7%DB%8C-%D8%AA%D8%B1%DA%A9%DB%8C%D8%A8%DB%8C-%D8%AF%D8%B1-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3)
