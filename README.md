@@ -26,6 +26,7 @@
 - [x] block-chain
 - [x] history of unix
 - [x] operation system
+- [x] unicode
 - [ ] utf-8
 - [ ] some os history - bsd unix , ...
 - [ ] Free software Licence Like GPL (Gnu Public Licence)
@@ -51,6 +52,7 @@
 - [x] Eric Raymond
 - [x] Margaret Hamilton
 - [x] Robert Griesemer
+- [ ] Charles Babbage 
 
 - [ ] David Heinemeier Hansson 
 - [ ] Jamie Zawinski
@@ -99,7 +101,7 @@
 - [ ] Kristen Nygaard, co-inventor of Simula
 - [ ] Martin Odersky, designer of Scala
 - [ ] John Ousterhout, designer of Tcl
-- [ ] Rob Pike, co-designer of Limbo and Go
+- [x] Rob Pike, co-designer of Limbo and Go
 - [x] Dennis Ritchie, designer of C
 - [ ] Matthias Felleisen, creator of Racket (programming language)
 - [x] Guido van Rossum, designer of Python
@@ -133,9 +135,9 @@
 - [x] free
 - [x] grep
 - [x] groups
+- [x] history
 - [ ] gzip
 - [ ] head
-- [ ] history
 - [ ] kill
 - [ ] less
 - [ ] ls
