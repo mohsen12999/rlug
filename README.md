@@ -1,7 +1,7 @@
 # Ramsar LUG
 
-[Ramsar Lug dynamic website](http://ra,sarlug.ir/)
-[Ramsar Lug static website](http://rlug.ir/)
+* dynamic website: [Ramsar Lug](http://ramsarlug.ir/)
+* static website: [RLug](http://rlug.ir/)
 
 ## Website
 
