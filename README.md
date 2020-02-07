@@ -52,7 +52,7 @@
 - [x] Eric Raymond
 - [x] Margaret Hamilton
 - [x] Robert Griesemer
-- [ ] Charles Babbage 
+- [x] Charles Babbage 
 
 - [ ] David Heinemeier Hansson 
 - [ ] Jamie Zawinski
@@ -78,7 +78,7 @@
 
 - [ ] John Backus, leader of the team that developed FORTRAN, developer of BNF
 - [ ] Friedrich L. Bauer, co-designer of ALGOL
-- [ ] Kathleen Booth, designed and developed the first assembly language
+- [x] Kathleen Booth, designed and developed the first assembly language
 - [ ] Gilad Bracha, designer of Newspeak, researcher in the area of reflection
 - [ ] Walter Bright, designer of D
 - [ ] Alain Colmerauer, creator of Prolog
@@ -136,7 +136,7 @@
 - [x] grep
 - [x] groups
 - [x] history
-- [ ] gzip
+- [x] gzip
 - [ ] head
 - [ ] kill
 - [ ] less
@@ -197,5 +197,11 @@
 
 ```sh
 for f in *\ *; do mv "$f" "${f// /}"; done
+```
+
+* convert `png` -> `jpg`
+
+```sh
+for i in *.png ; do convert "$i" "${i%.*}.jpg" ; done
 ```
 
