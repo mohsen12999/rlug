@@ -93,7 +93,7 @@
 - [ ] Roberto Ierusalimschy, designer of Lua
 - [ ] Alan Kay, and Dan Ingalls, co-inventors of Smalltalk
 - [ ] John G. Kemeny and Thomas E. Kurtz, designed and developed the first BASIC language
-- [ ] Brian Kernighan, co-designer of AWK and AMPL
+- [x] Brian Kernighan, co-designer of AWK and AMPL
 - [ ] Chris Lattner, designer of Swift
 - [x] Rasmus Lerdorf, father of PHP
 - [ ] Xavier Leroy, chief designer of OCaml
@@ -138,7 +138,7 @@
 - [x] groups
 - [x] history
 - [x] gzip
-- [ ] head
+- [x] head
 - [ ] kill
 - [ ] less
 - [ ] ls
@@ -161,6 +161,7 @@
 - [ ] file
 - [ ] info
 - [ ] finger
+- [ ] awk
 
 - [ ] id
 - [ ] useradd/adduser
