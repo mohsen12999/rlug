@@ -53,7 +53,8 @@
 - [x] Eric Raymond
 - [x] Margaret Hamilton
 - [x] Robert Griesemer
-- [x] Charles Babbage 
+- [x] Charles Babbage
+- [x] Larry Tesler
 
 - [ ] David Heinemeier Hansson 
 - [ ] Jamie Zawinski
@@ -139,7 +140,7 @@
 - [x] history
 - [x] gzip
 - [x] head
-- [ ] kill
+- [x] kill
 - [ ] less
 - [ ] ls
 - [ ] mkdir
